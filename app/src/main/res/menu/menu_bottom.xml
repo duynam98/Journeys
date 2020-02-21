@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_journey"
+        android:icon="@drawable/notification"
+        android:title="Journey" />
+
+    <item
+        android:id="@+id/menu_calendar"
+        android:icon="@drawable/calendar"
+        android:title="Calendar" />
+
+    <item
+        android:id="@+id/menu_media"
+        android:icon="@drawable/media"
+        android:title="Media" />
+
+    <item
+        android:id="@+id/menu_alats"
+        android:icon="@drawable/alats"
+        android:title="Altas" />
+
+    <item
+        android:id="@+id/today"
+        android:icon="@drawable/today"
+        android:title="Today/"/>
+
+</menu>

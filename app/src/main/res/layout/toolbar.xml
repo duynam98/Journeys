@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/background_toolbar"
+    android:id="@+id/paren_toolbar">
+
+    <ImageView
+        android:id="@+id/img_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/img_syn"
+        app:layout_constraintBottom_toBottomOf="@id/img_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/clould" />
+
+    <ImageView
+        android:id="@+id/img_search"
+        app:layout_constraintBottom_toBottomOf="@id/img_menu"
+        app:layout_constraintEnd_toStartOf="@id/img_syn"
+        app:layout_constraintTop_toTopOf="@id/img_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/img_iconapp"
+        app:layout_constraintBottom_toBottomOf="@id/img_menu"
+        app:layout_constraintEnd_toStartOf="@id/img_search"
+        app:layout_constraintStart_toStartOf="@id/img_menu"
+        app:layout_constraintTop_toTopOf="@id/img_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/icon_256" />
+
+    <TextView
+        app:layout_constraintBottom_toBottomOf="@id/img_iconapp"
+        app:layout_constraintStart_toEndOf="@id/img_iconapp"
+        app:layout_constraintTop_toTopOf="@id/img_iconapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="JOURNEY"
+        android:textColor="#03A9F4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
